@@ -46,9 +46,7 @@ function Contact() {
             <div className="contact-detail">
               <img src={email} alt="" /> <p>irfanmehmud140@gmail.com</p>
             </div>
-            <div className="contact-detail">
-              <img src={phone} alt="" /> <p>+91 xxx-xxx-xxx</p>
-            </div>
+            
           </div>
         </div>
         <form onSubmit={onSubmit} className="contact-right">

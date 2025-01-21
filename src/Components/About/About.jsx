@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
-import about_img from "../../assets/about_img.svg"
-import img from "../../assets/img.jpeg"
+import about_img from "../../assets/about_img.svg";
+import img from "../../assets/img.jpeg";
 
 function About() {
   return (
@@ -17,24 +17,36 @@ function About() {
         <div className="about-right">
           <div className="about-para">
             <p>
-              As a 2nd-year B.Tech student at Haldia Institute of Technology
-              Major in Information Technology, I am passionate about coding, web
-              development, and ethical hacking. With over 150+ solved LeetCode
-              problems and hands-on experience in web technologies like HTML,
-              CSS, JavaScript, Tailwind CSS, React js, Node.js, Express.js, and
-              MongoDB, I am continually refining my skills in Data Structures,
-              Algorithms, and backend development. Outside of coding, I love
-              playing chess, which sharpens my strategic thinking and
-              problem-solving abilities.
-              <br /><br />
-               I am always eager to learn new skills
-              and embrace exciting challenges that foster growth as a developer.
-              Ethical hacking is one of my key interests, and I explore this
-              field in my free time to develop a better understanding of
-              cybersecurity. I thrive on building efficient, user-friendly
-              solutions, and I'm constantly seeking opportunities to collaborate
-              on innovative projects that push the boundaries of my knowledge
-              and skillset.
+              👨‍🎓 Education
+              <br />
+              Second-year B.Tech student in Information Technology at Haldia
+              Institute of Technology, passionate about coding, and
+              problem-solving.
+              <br />
+              <br />
+              💻 Skills
+              <br />
+              Proficient in C, C++, Python, and JavaScript, with hands-on
+              experience in building web apps using HTML, CSS, Tailwind CSS,
+              React.js, Node.js, Express.js, and MongoDB. Solved 200+ LeetCode
+              problems and skilled in Git, GitHub, and basic Kali Linux OS.
+              <br />
+              <br />
+              📊 Focus
+              <br />
+              Currently learning Data Science with Krish Naik's Udemy course and
+              exploring Artificial Intelligence.
+              <br />
+              <br />
+              ♟️ Hobbies
+              <br />
+              Chess enthusiast, honing strategic thinking and problem-solving.
+              <br />
+              <br />
+              🌟 Goals
+              <br />
+              To enhance technical skills, build impactful solutions, and
+              collaborate on innovative projects.
             </p>
           </div>
           <div className="about-skills">
@@ -60,28 +72,34 @@ function About() {
               <p>Kali Linux</p> <hr style={{ width: "70%" }} />
             </div>
             <div className="about-skill">
-              <p>DSA</p> <hr style={{ width: "70%" }} />
+              <p>JavaScript</p> <hr style={{ width: "90%" }} />
             </div>
             <div className="about-skill">
-              <p>JavaScript</p> <hr style={{ width: "90%" }} />
+              <p>Python</p> <hr style={{ width: "90%" }} />
+            </div>
+            <div className="about-skill">
+              <p>Git and Github</p> <hr style={{ width: "90%" }} />
+            </div>
+            <div className="about-skill">
+              <p>ML</p> <hr style={{ width: "30%" }} />
             </div>
           </div>
         </div>
       </div>
       <div className="about-achievements">
         <div className="about-achievement">
-          <h1>Solved 150+ </h1>
+          <h1>Solved 200+ </h1>
           <p>Leetcode Problems</p>
         </div>
         <hr />
         <div className="about-achievement">
           <h1>Made 15+</h1>
-          <p>Projetcs</p>
+          <p>Projects</p>
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>Participated</h1>
-          <p>In chess tournament</p>
+          <h1>Selected</h1>
+          <p>For SIH 24 (internal round)</p>
         </div>
       </div>
     </div>

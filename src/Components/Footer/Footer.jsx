@@ -1,42 +1,98 @@
 import React from "react";
-import "./Footer.css";
-import logo from "../../assets/logo.svg";
-import user from "../../assets/user.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faLinkedin,
+  faTwitter,
+  faInstagram,
+  faFacebook,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-function Footer() {
+const Footer = () => {
   return (
-    <div className="footer">
-      <div className="footer-top">
-        <div className="footer-top-left">
-          <img src={logo} alt="" />
-          <p>
-            I'm a 2nd-year IT student at Haldia Institute of Technology.
-            Passionate about coding, ethical hacking
-          </p>
+    <footer style={footerStyle}>
+      <div style={containerStyle}>
+        <p>Connect with me on social media!</p>
+        <div style={socialIconsStyle}>
+          <a
+            href="https://github.com/Irfan140"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={iconStyle}
+          >
+            <FontAwesomeIcon icon={faGithub} size="2x" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/irfan-mehmud-7a409b280/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={iconStyle}
+          >
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
+          </a>
+          <a
+            href="https://x.com/MehmudIrfan"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={iconStyle}
+          >
+            <FontAwesomeIcon icon={faTwitter} size="2x" />
+          </a>
+          <a
+            href="https://www.instagram.com/_irfan_140_/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={iconStyle}
+          >
+            <FontAwesomeIcon icon={faInstagram} size="2x" />
+          </a>
+          <a
+            href="https://www.facebook.com/irfan.mehmud.77715"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={iconStyle}
+          >
+            <FontAwesomeIcon icon={faFacebook} size="2x" />
+          </a>
+          
         </div>
-        <div className="footer-top-right">
-            <div className="footer-email-input">
-                <img src={user} alt="" />
-                <input type="email" placeholder="Enter your email" />
-            </div>
-            <div className="footer-subscribe">
-                Subscribe
-            </div>
-        </div>
+        <p>&copy; 2024 Irfan. All rights reserved.</p>
       </div>
-      <hr />
-      <div className="footer-bottom">
-        <p className="footer-bottom-left">
-        © 2023 Irfan Mehmud. All rights reserved.
-        </p>
-        <div className="footer-bottom-right">
-            <p>Terms of services</p>
-            <p>Privacy policy</p>
-            <p>Connect with me</p>
-        </div>
-      </div>
-    </div>
+    </footer>
   );
-}
+};
+
+// Footer styles
+const footerStyle = {
+  backgroundColor: "#333",
+  color: "#fff",
+  padding: "20px 0",
+  textAlign: "center",
+};
+
+const containerStyle = {
+  maxWidth: "1100px",
+  margin: "0 auto",
+};
+
+const socialIconsStyle = {
+  display: "flex",
+  justifyContent: "center",
+  margin: "20px 0",
+};
+
+// Social icons hover effect with gloss
+const iconStyle = {
+  color: "#fff",
+  margin: "0 15px",
+  transition: "transform 0.3s, color 0.3s, box-shadow 0.3s",
+};
+
+const iconHoverStyle = {
+  transform: "scale(1.2)",
+  color: "#DF8908", // Your gradient colors for hover effect
+  boxShadow: "0px 4px 15px rgba(255, 255, 255, 0.6)", // Glossy effect
+};
 
 export default Footer;
