@@ -29,7 +29,7 @@ function About() {
               Proficient in C, C++, Python, and JavaScript, with hands-on
               experience in building web apps using HTML, CSS, Tailwind CSS,
               React.js, Node.js, Express.js, and MongoDB. Solved 200+ LeetCode
-              problems and skilled in Git, GitHub, and basic Kali Linux OS.
+              problems and skilled tools like  Git, Postman, Jupiter Notebook and basic Kali Linux OS.
               <br />
               <br />
               📊 Focus
@@ -40,7 +40,7 @@ function About() {
               <br />
               ♟️ Hobbies
               <br />
-              Chess enthusiast, honing strategic thinking and problem-solving.
+              Chess, Reading Books, Learning Japanese
               <br />
               <br />
               🌟 Goals
@@ -81,7 +81,16 @@ function About() {
               <p>Git and Github</p> <hr style={{ width: "90%" }} />
             </div>
             <div className="about-skill">
-              <p>ML</p> <hr style={{ width: "30%" }} />
+              <p>Statistics</p> <hr style={{ width: "80%" }} />
+            </div>
+            <div className="about-skill">
+              <p>Data Cleaning, Visualization and FE</p> <hr style={{ width: "90%" }} />
+            </div>
+            <div className="about-skill">
+              <p>ML</p> <hr style={{ width: "80%" }} />
+            </div>
+            <div className="about-skill">
+              <p>NLP</p> <hr style={{ width: "30%" }} />
             </div>
           </div>
         </div>
@@ -93,13 +102,18 @@ function About() {
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>Made 15+</h1>
+          <h1>Made over 15+</h1>
           <p>Projects</p>
         </div>
         <hr />
         <div className="about-achievement">
           <h1>Selected</h1>
           <p>For SIH 24 (internal round)</p>
+        </div>
+        <hr />
+        <div className="about-achievement">
+          <h1>Double Slash 3.0</h1>
+          <p>Got into the top 35 teams out of 350+ teams</p>
         </div>
       </div>
     </div>
