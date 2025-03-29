@@ -11,9 +11,7 @@ function Hero() {
         <span>I'm Irfan Mehmud,</span> Web Developer from India
       </h1>
       <p>
-        2nd-year IT student at Haldia Institute of Technology. Passionate about
-        coding, ethical hacking, and experienced in HTML, CSS, JavaScript,
-        React, and Node.js. Enjoys chess and exploring cybersecurity
+        2nd-year IT student at Haldia Institute of Technology. Skilled in Web Technologies,Data Cleaning, Statistics, ML
       </p>
       <div className="hero-action">
         <div className="hero-connect">
@@ -21,7 +19,7 @@ function Hero() {
             Connect with me
           </AnchorLink>
         </div>
-        <div className="hero-resume"><a href="https://drive.google.com/file/d/1o2lpJD0e_Z1GNP5JpDn16N_Lb-yydZx3/view?usp=sharing" target="_blanck">Resume</a></div>
+        <div className="hero-resume"><a href="https://drive.google.com/file/d/1dEp6nGI8WvLkSV2psmKu0r1LzY8u0Ikv/view?usp=sharing" target="_blanck">Resume</a></div>
       </div>
     </div>
   );
