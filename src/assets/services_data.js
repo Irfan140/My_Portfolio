@@ -11,7 +11,7 @@ const Services_Data = [
     },
     {
         s_no: 3,
-        s_name: "ML",
+        s_name: "ML Developer",
         s_desc: "Exploring data-driven solutions and building intelligent models to solve complex problems."
     }
 ];
