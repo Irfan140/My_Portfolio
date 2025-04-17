@@ -6,12 +6,12 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 function Hero() {
   return (
     <div id="hero" className="hero">
-      <img src={img} alt="" />
+      <img src={img} alt="Irfan Mehmud" />
       <h1>
         <span>I'm Irfan Mehmud,</span> Web Developer from India
       </h1>
       <p>
-        2nd-year IT student at Haldia Institute of Technology. Skilled in Web Technologies,Data Cleaning, Statistics, ML
+        2nd-year IT student at Haldia Institute of Technology. Skilled in Web Technologies, Data Cleaning, Statistics, ML.
       </p>
       <div className="hero-action">
         <div className="hero-connect">
@@ -19,7 +19,11 @@ function Hero() {
             Connect with me
           </AnchorLink>
         </div>
-        <div className="hero-resume"><a href="https://drive.google.com/file/d/1dEp6nGI8WvLkSV2psmKu0r1LzY8u0Ikv/view?usp=sharing" target="_blanck">Resume</a></div>
+        <div className="hero-resume">
+          <a href="https://drive.google.com/file/d/1CRmciri9L4OKrEUB-IpoIwUvL8VRmhwM/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            Resume
+          </a>
+        </div>
       </div>
     </div>
   );
