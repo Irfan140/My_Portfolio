@@ -7,113 +7,69 @@ function About() {
   return (
     <div id="about" className="about">
       <div className="about-title">
-        <h1>About me</h1>
-        <img src={about_img} alt="" />
+        <h1>About Me</h1>
+        <img src={about_img} alt="decorative" />
       </div>
+
       <div className="about-sections">
         <div className="about-left">
-          <img src={img} alt="" />
+          <img src={img} alt="portrait" />
         </div>
+
         <div className="about-right">
           <div className="about-para">
             <p>
-              👨‍🎓 Education
+              👨‍🎓 <strong>Education:</strong>
               <br />
-              Second-year B.Tech student in Information Technology at Haldia
-              Institute of Technology, passionate about coding, and
-              problem-solving.
+              B.Tech (2nd Year) in Information Technology at Haldia Institute of
+              Technology.
               <br />
-              <br />
-              💻 Skills
-              <br />
-              Proficient in C, C++, Python, and JavaScript, with hands-on
-              experience in building web apps using HTML, CSS, Tailwind CSS,
-              React.js, Node.js, Express.js, and MongoDB. Solved 200+ LeetCode
-              problems and skilled tools like  Git, Postman, Jupiter Notebook and basic Kali Linux OS.
+              Passionate about coding and solving problems.
               <br />
               <br />
-              📊 Focus
-              <br />
-              Currently learning Data Science with Krish Naik's Udemy course and
-              exploring Artificial Intelligence.
-              <br />
-              <br />
-              ♟️ Hobbies
-              <br />
-              Chess, Reading Books, Learning Japanese
-              <br />
-              <br />
-              🌟 Goals
-              <br />
-              To enhance technical skills, build impactful solutions, and
-              collaborate on innovative projects.
+              💻 <strong>Skills:</strong>
             </p>
           </div>
+
           <div className="about-skills">
-            <div className="about-skill">
-              <p>HTML & CSS</p> <hr style={{ width: "90%" }} />
-            </div>
-            <div className="about-skill">
-              <p>Tailwind CSS</p> <hr style={{ width: "70%" }} />
-            </div>
-            <div className="about-skill">
-              <p>React JS</p> <hr style={{ width: "70%" }} />
-            </div>
-            <div className="about-skill">
-              <p>Node JS</p> <hr style={{ width: "50%" }} />
-            </div>
-            <div className="about-skill">
-              <p>Express JS</p> <hr style={{ width: "70%" }} />
-            </div>
-            <div className="about-skill">
-              <p>Mongo DB</p> <hr style={{ width: "50%" }} />
-            </div>
-            <div className="about-skill">
-              <p>Kali Linux</p> <hr style={{ width: "70%" }} />
-            </div>
-            <div className="about-skill">
-              <p>JavaScript</p> <hr style={{ width: "90%" }} />
-            </div>
-            <div className="about-skill">
-              <p>Python</p> <hr style={{ width: "90%" }} />
-            </div>
-            <div className="about-skill">
-              <p>Git and Github</p> <hr style={{ width: "90%" }} />
-            </div>
-            <div className="about-skill">
-              <p>Statistics</p> <hr style={{ width: "80%" }} />
-            </div>
-            <div className="about-skill">
-              <p>Data Cleaning, Visualization and FE</p> <hr style={{ width: "90%" }} />
-            </div>
-            <div className="about-skill">
-              <p>ML</p> <hr style={{ width: "80%" }} />
-            </div>
-            <div className="about-skill">
-              <p>NLP</p> <hr style={{ width: "30%" }} />
-            </div>
+            <span className="skill-badge">HTML &amp; CSS</span>
+            <span className="skill-badge">Tailwind CSS</span>
+            <span className="skill-badge">React JS</span>
+            <span className="skill-badge">Node JS</span>
+            <span className="skill-badge">Express JS</span>
+            <span className="skill-badge">MongoDB</span>
+            <span className="skill-badge">JavaScript</span>
+            <span className="skill-badge">Kali Linux</span>
+            <span className="skill-badge">Flask</span>
+            <span className="skill-badge">C</span>
+            <span className="skill-badge">C++</span>
+            <span className="skill-badge">Python</span>
+            <span className="skill-badge">Git</span>
+            <span className="skill-badge">Postman</span>
+            <span className="skill-badge">Statistics</span>
+            <span className="skill-badge">
+              Data Cleaning &amp; Visualization 
+            </span>
+            <span className="skill-badge">ML</span>
+            <span className="skill-badge">NLP</span>
           </div>
         </div>
       </div>
+
       <div className="about-achievements">
         <div className="about-achievement">
-          <h1>Solved 200+ </h1>
-          <p>Leetcode Problems</p>
+          <h1>200+</h1>
+          <p>Leetcode Problems Solved</p>
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>Made over 15+</h1>
-          <p>Projects</p>
+          <h1>15+</h1>
+          <p>Projects made</p>
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>Selected</h1>
-          <p>For SIH 24 (internal round)</p>
-        </div>
-        <hr />
-        <div className="about-achievement">
-          <h1>Double Slash 3.0</h1>
-          <p>Got into the top 35 teams out of 350+ teams</p>
+          <h1>Top 35</h1>
+          <p>In a hackathon (out of 350+ teams)</p>
         </div>
       </div>
     </div>
